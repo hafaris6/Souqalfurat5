@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>سوق الفرات</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>سوق الفرات</h1>
+        <p class="welcome">أهلاً بكم في سوق الفرات - ستجدون هنا كل ما تحتاجونه: ألبسة، أحذية، مكياجات، إكسسوارات، أدوات منزلية</p>
+        <p class="support">رقم خدمة العملاء: <strong>+1 (844) 580‑4018</strong></p>
+    </header>
+
+    <section class="governorates">
+        <h2>المحافظات السورية</h2>
+        <ul>
+            <li>دمشق</li><li>ريف دمشق</li><li>حلب</li><li>حمص</li><li>حماة</li><li>اللاذقية</li><li>طرطوس</li>
+            <li>إدلب</li><li>درعا</li><li>السويداء</li><li>دير الزور</li><li>الرقة</li><li>الحسكة</li><li>القنيطرة</li>
+        </ul>
+    </section>
+
+    <section class="add-product">
+        <h2>إضافة منتج للتجار</h2>
+        <form id="productForm" enctype="multipart/form-data">
+            <input type="text" placeholder="اسم المنتج" required><br>
+            <input type="number" placeholder="السعر" required><br>
+            <input type="tel" placeholder="رقم واتساب التاجر (مثال: 9639xxxxxxx)" required><br>
+            <input type="file" id="imageUpload" accept="image/*" required><br>
+            <button type="submit">أضف المنتج</button>
+        </form>
+    </section>
+
+    <section class="products" id="productList">
+        <h2>المنتجات المعروضة</h2>
+    </section>
+
+    <footer>
+        <p>جميع الحقوق محفوظة © سوق الفرات 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
